@@ -31,12 +31,12 @@
 */
 
 const pizza = {
-    'name': BBQ Chicken Pizza
-    'price': 24.99
-    'category': Entree
-    'popularity': 9
-    'rating': 8
-    'tags': Dinner, Entree
+    name: 'BBQ Chicken Pizza'
+    price: '24.99'
+    category: 'Entree'
+    popularity: '9'
+    rating: '8'
+    tags: 'Dinner, Entree'
 
 };
 
@@ -57,8 +57,17 @@ console.log(pizza.tags)
     Use dot notation to access the value.
 */
 
-//CODE HERE
+const pizza = {
+    name: 'BBQ Chicken Pizza'
+    price: '24.99'
+    category: 'Entree'
+    popularity: '9'
+    rating: '8'
+    tags: 'Dinner, Entree'
 
+};
+
+console.log(pizza.popularity)
 
 /*
     Second, log the second tag in your pizza's
@@ -67,7 +76,7 @@ console.log(pizza.tags)
     get the value.
 */
 
-//CODE HERE
+console.log(pizza.['tags2'])
 
 
 /*
@@ -77,7 +86,13 @@ console.log(pizza.tags)
     Print the value of your new price variable.
 */
 
-//CODE HERE
+let { price } = pizza
+console.log(price , pizza)
+
+pizza.price = '27.99'; 
+
+
+
 
 
 /*
@@ -87,8 +102,10 @@ console.log(pizza.tags)
     Print the value of your category variable. 
 */
 
-//CODE HERE
+let { vategory } = pizza
+console.log(category , pizza)
 
+pizza.category = 'appetizer'
 
 //////////////////PROBLEM 3////////////////////
 /* 
