@@ -52,10 +52,13 @@ const greetUser = (username) => 'welcome back, (username)' {
 
 const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
-function canWeDeliver(zipcode) {
-
+const canWeDeliver = deliveryAreaZipCodes.filter(function zipcode('you're in our delivery zone!)) {
+    return 'you're in our delivery zone!'
+    console.log(deliveryAreaZipCodes)
+    
 
 }
+
 
 
 
@@ -77,7 +80,7 @@ function canWeDeliver(zipcode) {
     Name your new function `canWeDeliverTwo`.
 */
 
-// CODE HERE
+// CODE H
 
 
 //////////////////PROBLEM 3////////////////////
