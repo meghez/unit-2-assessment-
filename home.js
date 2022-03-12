@@ -22,9 +22,7 @@
 */
 
 const greetUser = (username) => 'welcome back, (username)' {
-
-    let username = Andrew
-    console.log('Welcome back, (username)')
+     console.log('Welcome back, (username)')
 
 }
 
@@ -54,7 +52,11 @@ const greetUser = (username) => 'welcome back, (username)' {
 
 const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
-//CODE HERE
+function canWeDeliver(zipcode) {
+
+
+}
+
 
 
 
