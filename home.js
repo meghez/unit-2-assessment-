@@ -52,12 +52,8 @@ const greetUser = (username) => 'welcome back, (username)' {
 
 const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
-const canWeDeliver = deliveryAreaZipCodes.filter(function zipcode('you're in our delivery zone!)) {
-    return 'you're in our delivery zone!'
-    console.log(deliveryAreaZipCodes)
-    
 
-}
+
 
 
 
@@ -116,7 +112,12 @@ const deals = [
     to replace the 15 with a 10.
 */
 
-//CODE HERE
+const changeTitle = deals.replace('15% off!', '10% off!')
+    console.log(changeTitle)
+
+
+
+
 
 
 
@@ -133,4 +134,5 @@ const deals = [
     to be displaying wrong on the live site.
 */
 
-//CODE HERE
+const changeDesc = strings.replace('This deal lasts until the end of March' , 'This deal last until the end of Arpil!')
+    console.log(changeDesc)
