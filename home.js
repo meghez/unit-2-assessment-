@@ -52,9 +52,16 @@ const greetUser = (username) => 'welcome back, (username)' {
 
 const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
+function canWeDeliver(zipCode) {
+let deliveryAreaZipCodes = zipCode
+if(deliveryAreaZipCodes === zipcode)
+    console.log('you're in our delivery zone') {
+    } else {
+        return 'sorry, we can't deliver to that address'
+        console.log('sorry, we can't deliver to that address')
+    }
 
-
-
+}
 
 
 
@@ -76,7 +83,12 @@ const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
     Name your new function `canWeDeliverTwo`.
 */
 
-// CODE H
+
+function canWeDeliverTwo(zipcode) {
+let deliveryAreaZipCodes = zipcode 
+console.log(deliveryAreaZipCodes(deliveryAreaZipCodes.includes(zipcode))
+
+}
 
 
 //////////////////PROBLEM 3////////////////////
