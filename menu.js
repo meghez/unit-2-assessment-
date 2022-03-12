@@ -30,7 +30,22 @@
     'kids'
 */
 
-//CODE HERE
+const pizza = {
+    'name': BBQ Chicken Pizza
+    'price': 24.99
+    'category': Entree
+    'popularity': 9
+    'rating': 8
+    'tags': Dinner, Entree
+
+};
+
+console.log(pizza.name)
+console.log(pizza.price )
+console.log(pizza.category)
+console.log(pizza.popularity)
+console.log(pizza.rating)
+console.log(pizza.tags)
 
 
 
