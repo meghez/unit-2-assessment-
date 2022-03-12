@@ -119,7 +119,14 @@ pizza.category = 'appetizer'
     data in some functions that you'll write.
 */
 
-//CODE HERE
+const foodArr = {
+    name: 'Pepperoni'
+    price: '17.99'
+    category: 'entree'
+    rating: '7'
+    tags: 'meal, adult'
+
+};
 
 
 
@@ -134,10 +141,10 @@ pizza.category = 'appetizer'
     You can check for any tag that at least 1 of
     your food objects has.
 */
+const filteredfoodArr = foodArr.filter(foodArr => foodArr.tags)
+    console.log(filteredfoodArr)
 
-//CODE HERE
-
-// const filteredFood = foodArr.filter(/* CALLBACK HERE */)
+// const filteredFood = foodArr.filter(tags.meal)
 
 
 
@@ -180,7 +187,21 @@ pizza.category = 'appetizer'
     Return the filtered array from the entire function
 */
 
-//CODE HERE
+function filterByProperty('property','number','type') {
+    const Property = {
+        rating:
+        popularity:
+        price:
+
+    }
+    console.log(property === [rating, popularity, price])
+for (let prop in [property]) {
+
+}
+
+var = filteredArr 
+
+}
 
 
 /*
@@ -190,4 +211,7 @@ pizza.category = 'appetizer'
     You'll have to console.log to see the filtered array
 */
 
-//CODE HERE
+function filterByProperty(rating, popularity,price) {
+    return rating, popularity, price 
+}
+filterByProperty(8, 7, 24.99)
