@@ -41,16 +41,20 @@ class getSchedule(NAME, SHIFTS)
     shifts: weekday mornings, weekday afternoons
 */
 
-var = 'empOne'
- 
+class empOne(name, shifts)
+    constructor(name, shifts)
+    super(name, shifts)
+    console.log(empOne)
+
 
 /*
     Call the `getSchedule` method on the
     `empOne` object.
 */
 
-//CODE HERE
-
+function getSchedule(empOne){
+    console.log(empOne)
+}
 
 /*
     Make a copy of the empOne object
@@ -64,8 +68,10 @@ var = 'empOne'
     dot or bracket notation.
 */
 
-//CODE HERE
 
+function getSchedule(empTwo) {
+    console.log(empTwo)
+}
 
 
 //////////////////PROBLEM 2////////////////////
@@ -91,7 +97,20 @@ var = 'empOne'
     the employees array. 
 */
 
-//CODE HERE
+class Manager {
+    constructor(name, shifts)
+        super(name, shifts)
+
+function getEmployees(NAME, EMPLOYEES)
+    console.log([NAME] manages [EMPLOYEES]) {
+
+        function addEmployee(emp){
+            console.log(empArr)
+
+        } 
+    }
+
+}
 
 
 
@@ -105,8 +124,14 @@ var = 'empOne'
     shifts: weekday mornings, weekday afternoons
     employees: Cece and Schmidt
 */
+const manager(name, shifts, employees) {
+let manager = {
+    name: Winston
+    shifts: weekday mornings, weekday afternoons
+    employees: Cece and Schmidt
 
-//CODE HERE
+}
+};
 
 
 /*
@@ -114,7 +139,11 @@ var = 'empOne'
     `manager` object.  
 */
 
-//CODE HERE
+function getEmployees(name, shifts, employees) {
+    console.log(name, shifts, employees)
+
+}
+
 
 /*
     Call the `addEmployee` method on the 
@@ -122,7 +151,8 @@ var = 'empOne'
     'Coach' or whatever name you'd like.
 */
 
-//CODE HERE 
+function addEmployee(manager)
+    console.log(getEmployees)
 
 /*
     Call the `getEmployees` method on the
@@ -130,4 +160,5 @@ var = 'empOne'
     that an employee was added.
 */
 
-//CODE HERE
+function getEmployee(manager)
+    console.log()
