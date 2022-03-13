@@ -19,7 +19,15 @@
     stored on the object.
 */
 
-//CODE HERE
+class Employee {
+    constructor(name, shifts)
+    super(name, shifts)
+
+class getSchedule(NAME, SHIFTS)
+    constructor(NAME, SHIFTS)
+    console.log([NAME] works on [SHIFTS])
+
+}
 
 
 
@@ -33,7 +41,8 @@
     shifts: weekday mornings, weekday afternoons
 */
 
-//CODE HERE
+var = 'empOne'
+ 
 
 /*
     Call the `getSchedule` method on the
