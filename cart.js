@@ -33,9 +33,10 @@ const cart = [
     }
 ]
 
-//CODE HERE
+cart.reduce(function(total, price))
+    console.log(total)
 
-// const summedPrice = cart.reduce(/* CALLBACK HERE */)
+// const summedPrice = cart.reduce(total, price)
 
 
 //////////////////PROBLEM 2////////////////////
@@ -53,9 +54,11 @@ const cart = [
     decimals, for example: .06 for a 6% tax.
 */
 
-//CODE HERE
+function calcFinalPrice(cartTotal, couponValue, tax) {
+    let  total= ([(tax * cartTotal)]* cartTotal) -= couponValue) 
+        Return total 
 
-
+}
 
 //////////////////PROBLEM 3////////////////////
 /*  
@@ -78,7 +81,7 @@ const cart = [
 */
 
 /*
-    TEXT ANSWER HERE
+    name- string , address- string , credit card info- number , email address - string 
 
 */
 
@@ -87,4 +90,10 @@ const cart = [
     guidelines.
 */
 
-//CODE HERE
+const Cart = {
+    Name:
+    Address:
+    Credit Card:
+    Email: 
+
+}; 
