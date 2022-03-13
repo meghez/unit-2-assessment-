@@ -29,8 +29,21 @@
     stored on the object.
 */
 
-//CODE HERE
+class Ticket{
+    constructor(items, orderTime, customerId)
+}
 
+class status extends Ticket {
+    constructor(status)
+    super(queued)
+}
+
+class updateStatus extends Ticket {
+    constructor(newStatus)
+    super(this.status)
+}
+console.log(The order for [CUSTOMERID] is now [status])
+}
 
 
 /*
@@ -44,7 +57,15 @@
     customer: 575
 */
 
-//CODE HERE
+const firstTicket = class {
+    constructor(food ordered, ordered at, customer) {
+        this.foodordered = food ordered
+        this.orderedat = ordered at 
+        this.customer = customer
+    }
+
+}
+
 
 
 /*
@@ -53,4 +74,7 @@
     'cooking'
 */
 
-//CODE HERE
+function firstTicket(food ordered, ordered at, customer) {
+    console.log(food ordered, ordered at, customer)
+
+}
